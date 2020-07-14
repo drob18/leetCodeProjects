@@ -8,10 +8,10 @@ class Solution {
         int angle_min = 0;
         
         /* Making sure inputs are valid */
-        if(minutes >= 0 && minutes <= 59 && hour >= 1 && hour <= 12) {
+        if (minutes >= 0 && minutes <= 59 && hour >= 1 && hour <= 12) {
             
             /* Hour 12 is at a 0 angle */
-            if(hour == 12) {
+            if (hour == 12) {
                 hour -= 12;
             }
             min_dec = (double) minutes / 60;
